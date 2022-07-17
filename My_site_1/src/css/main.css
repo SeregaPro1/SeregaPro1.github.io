@@ -141,6 +141,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   color: rgba(34, 53, 111, 0.5);
+  margin-bottom: 100px;
 }
 .color1 {
   background-color: #FFE2DE;
@@ -149,10 +150,40 @@
   background-color: #C4E769;
 }
 .color3 {
-  background-color: #62D0DF;
+  background-color: #62d0df;
 }
 .color4 {
-  background-color: #0052C1;
+  background-color: #0052c1;
+}
+.color5 {
+  background-color: #22356f;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.color6 {
+  background-color: #0052c1;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.color7 {
+  background-color: #76B58B;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.color8 {
+  background-color: #62D0DF;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.color9 {
+  background-color: #DEE1FFff;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.color10 {
+  background-color: #8F00FF;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
 }
 .sis1 {
   color: #ffffff;
@@ -196,4 +227,73 @@
 }
 .s4 {
   margin-bottom: 100px;
+}
+.m4 {
+  margin-bottom: 250px;
+}
+.sis5::before {
+  content: "⚖️";
+  color: #000000;
+}
+.sis6::before {
+  content: "😊";
+  color: #000000;
+}
+.sis7::before {
+  content: "🍏";
+  color: #000000;
+}
+.sis8::before {
+  content: "🤸‍♂️";
+  color: #000000;
+}
+.sis9::before {
+  content: "🏆";
+  color: #000000;
+}
+.sis10::before {
+  content: "🏊";
+  color: #000000;
+}
+.color7:hover {
+  background-image: url(https://www.parkinson.org/sites/default/files/PD-diet.png);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  background-position: center;
+}
+.color5:hover {
+  background-image: url(https://t3.ftcdn.net/jpg/04/61/46/70/360_F_461467085_HMS2c7U5iI0TF8o0aIBfzR4RvlPhcKTz.jpg);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  background-position: center;
+}
+.color6:hover {
+  background-image: url(http://momentousinstitute.org//assets/site/blog/Mental-Health-For-Adults.jpg);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  background-position: center;
+}
+.color8:hover {
+  background-image: url(https://ih1.redbubble.net/image.660581543.4738/farp,small,wall_texture,product,750x1000.u2.jpg);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  background-position: center;
+}
+.color9:hover {
+  background-image: url(https://ae01.alicdn.com/kf/Haa94a33a56f5480aae608dee47fe2200M/Gym-Wall-Decal-Custom-Fitness-Decor-Workout-Art-Vinyl-Sticker-Gorilla-Gym-Quote-Stickers-Motivation-Crossfit.jpg);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  background-position: center;
+}
+.color10:hover {
+  background-image: url(https://st4.depositphotos.com/2885805/20216/v/600/depositphotos_202168618-stock-illustration-aqua-aerobics-isometric-composition.jpg);
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  background-position: center;
+}
+.wmax {
+  width: 100%;
+}
+.sis:hover {
+  color: black;
 }
