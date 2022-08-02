@@ -1,0 +1,313 @@
+@import url(dlc/var.less);
+
+body{
+    place-items: center;
+}
+// button {
+//     background: none;
+//     text-decoration: inherit;
+//     font-family: system-ui;
+//     font-size: 1rem;
+//     padding: 1rem 2rem;
+// }
+.b1{
+    border: 2px solid red;
+}
+.p1-1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: @text-color-1;
+    text-decoration: none;
+    margin: 15px auto;
+    &:hover{
+        font-weight: 900;
+        line-height: 22px;
+        color:darken(@text-color-1, 100%);
+    }
+    & + &{
+        padding-left: 40px;
+    }
+}
+.p1-2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: @text-color-1;
+    text-decoration: none;
+    margin: 15px auto;
+    position: absolute;
+    &:hover{
+        font-weight: 900;
+        color:darken(@text-color-1, 100%);
+    }
+}
+.r1{
+    margin-top: 20px;
+}
+.p1{
+    margin: 30px auto;
+}
+.p2{
+    margin: 15px auto;
+}
+.s1{
+    background: url(imgcss/bg-1.svg);
+    height: 1080px;
+    top: 0;
+}
+.font-1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+}
+.btn-1{
+    margin-top: 15px;
+    text-decoration: none;
+    color: #F75E05;
+	position: relative;
+	padding: 20px 40px;
+	cursor: pointer;
+    transition: @transition;
+    border-radius: @button-radius;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border-radius: 5px;
+		border: 2px solid transparent;
+		background: @bgc-1 border-box;
+		-webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+		-webkit-mask-composite: destination-out;
+		mask-composite: exclude;
+
+	}
+    &:hover{
+        color: white;
+        background: @bgc-1;
+        transition: @transition;
+    }
+}
+.m1{
+    margin-top: 9rem;
+}
+.p2-1{
+    margin-top: 2.5rem;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #1E212C;
+}
+.r2{
+    margin-top: 2.5rem;
+}
+.hover{
+    &:hover{
+        font-weight:900;
+    }
+}
+.p2-2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1E212C;
+}
+.p2-3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    display: flex;
+    align-items: center;
+    /* gray/900 */
+    color: #1E212C;
+    padding-top: 5px;
+}
+.padding-1{
+    padding-top: 10px;
+}
+.padding-2{
+    padding-bottom: 8px;
+}
+.s2{
+    background: url(imgcss/bg-2.svg);
+    margin-top: 10rem;
+}
+.icon-check{
+    list-style-type: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    /* gray/800 */
+    color: #424551;
+    }
+.p3-1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    /* gray/800 */
+    color: #424551;
+}
+.k1{
+    color: #FF3F3A;
+    padding-top: 10px;
+    & m{
+        color: #424551;
+    }
+}
+.padding-3{
+    padding-left: 10px;
+}
+.m2{
+    margin-top: 40px;
+}
+.p3-4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 44px;
+    /* identical to box height, or 314% */
+    /* white */
+}
+.p3-2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    /* gray/900 */
+
+    color: #1E212C;
+}
+.p3-3{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    /* identical to box height, or 60px */
+    /* gray/900 */
+    color: #1E212C;
+}
+.s3{
+    margin-top: 15rem;
+    margin-bottom: 12rem;
+}
+.fw-1{
+    font-weight: 700;
+}
+.card-1{
+    border: 1px solid #E5E8ED;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08),
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05), 
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04), 
+    0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    &:hover{
+        box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16), 
+        0px 30px 24px -10px rgba(154, 156, 165, 0.1),
+        0px 12px 10px -6px rgba(154, 156, 165, 0.08), 
+        0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+    }
+}
+// .card-margin-1{
+//     margin-left: 25px;
+// }
+.p4-1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    /* gray/900 */
+    color: #1E212C;
+    padding: 20px auto;
+}
+.k2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    /* danger */
+    color: #FF4242;
+    & m{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+        /* gray/700 */
+        color: #787A80;
+    }
+}
+.p4-2{
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    /* white */
+    color: #FFFFFF;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 3px;
+    display: inline-block;
+}
+.bg-green{
+    background: #03CEA4;
+    border-radius: 4px;
+}
+.bg-blue{
+    background: #5A87FC;
+    border-radius: 4px;
+}
+.bg-orange{
+    background: #F89828;
+    border-radius: 4px;
+}
+.bg-pin{
+    background: #F52F6E;
+    border-radius: 4px;
+}
