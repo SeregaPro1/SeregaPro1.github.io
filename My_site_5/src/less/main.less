@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url("../fonts/Circular/CircularStd.woff2") format("woff2"), 
+    url("../fonts/Circular/CircularStd-Black.woff2") format("woff2");
+}
+@import url(dlc/var.less);
+.p1-1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    cursor: pointer;
+    color: #000000;
+    &:hover{
+        color: #1b1b1b;
+        text-shadow:  20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+    }
+}
+.b1{
+    border: 1px solid red;
+}
+.center-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1-2{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #050038;
+    & + &{
+        padding-left: 60px;
+    }
+    &:hover{
+        color: #050038;
+        font-weight: 700;
+        text-shadow:  20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+    }
+}
+.btn-1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    border: 2px solid #0555FF;
+    background: #0555FF;
+    border-radius: 30px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: @transition;
+    &:hover{
+        transition: @transition;
+        color: #0555FF;
+        background: #FFFFFF;
+        border: 2px solid #0555FF;
+        box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.3);
+        border-radius: 30px;
+    }
+}
+.padding-1{
+    padding-right: 35px;
+}
+.m1{
+    margin-top: 100px;
+}
+.m2{
+    margin-top: 30px;
+}
+.p1-3{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 120px;
+    /* or 125% */
+    text-align: center;
+    color: #050038;
+}
+.p1-4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+    text-align: center;
+    color: #5B5E6D;
+
+}
+.p1-5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #5B5E6D;
+}
+.p1-6{
+    & + &{
+        padding-left: 50px;
+    }
+}
+.line-botton{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 100px;
+}
+.btn-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    /* identical to box height, or 213% */
+    text-align: center;
+    color: #0555FF;
+    padding: 1rem;
+    padding-right: 2.5rem;
+    padding-left: 1.2rem;
+    background: rgba(5, 85, 255, 0.1);
+    border-radius: 30px;
+    &:hover{
+        box-shadow: 0px 10px 40px rgba(176, 201, 253, 0.3);
+    }
+}
+.k1{
+    padding-right: 1rem;
+}
+.p1-7{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+    &:hover{
+        color: #000000;
+    }
+}
+.link-ease-in-out{
+    display: inline-block;
+    /* Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    cursor: pointer;
+    &::after{
+        background-color: #0555FF;
+        /* Цвет линии при наведении на нее курсора мыши */
+        display: block;
+        content: "";
+        height: 2px;
+        /* Высота линии */
+        width: 0%;
+        -webkit-transition: width 0.3s ease-in-out;
+        -moz--transition: width 0.3s ease-in-out;
+        transition: width 0.3s ease-in-out;
+    }
+    &:hover::after,
+    &:focus::after{
+        width: 100%;
+    }
+}
+.s3{
+    background: rgba(0, 0, 0, 0.1);
+}
+.p1-8{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #050038;
+}
+.p1-9{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #596068;
+}
+.p1-10{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #050038;
+}
+.r1{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.padding-left{
+    & + &{
+        padding-left: 2rem;
+    }
+}
+.s4{
+    background: #130C3A;
+}
+.p2-1{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 85px;
+    /* or 118% */
+    color: #FFFFFF;
+}
+.input-1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+    color: #C1C1C1;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px 0px 0px 10px;
+    padding: 24px;
+    padding-left: 30px;
+    border-right: none;
+    outline: none;
+}
+.p2-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-3{
+    padding: 24px;
+    padding-left: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    top: -3px;
+    left: -0.275rem;
+    position: relative;
+    background: @color-2;
+    opacity: 1;
+}
