@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url("../fonts/KTS/KyivTypeSans-Medium-.woff2") format("woff2");
+}
+@import url(dlc/var.less);
+@import url(dlc/button.less);
+
+body{
+    background-position: center;
+    background: url(../img/back-1.svg);
+    background-color: #222021;
+}
+.b1{
+    border: 1px solid red;
+}
+a, a:visited, a:focus, a:active, a:hover{
+    outline:0 none !important;
+}
+.center-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1{
+    background: url(../img/img-1.png) no-repeat;
+}
+.s2{
+    margin-top: 25rem;
+}
+.p1-1{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #d8d8d8;
+    & + &{
+        padding-left: 5rem;
+    }
+    &:hover{
+        color: #ffffff;
+    }
+}
+.p1-2{
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 115.4%;
+    /* or 104px */
+    color: #F5F5F5;
+    text-transform: uppercase;
+}
+.p1-3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+
+    color: #FFDBBB;
+}
+.border-right{
+    border-right: 1px solid #F5F5F5;
+}
+.back-1{
+    background: #1E0C06;
+    border-radius: 43px 43px 43px 43px;
+    filter: drop-shadow(0px 4px 52px rgba(245, 245, 245, 0.17));
+}
+.btn, .btn:visited, .btn:focus, .btn:active, .btn:hover,
+.btn-1:visited, .btn-1:focus, .btn-1:active, .btn-1:hover{
+    outline:0 none !important;
+}
+.btn-1{
+    background: #728BAD;
+    border-radius: 42px;
+    padding: 1rem 7rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    outline:0 none !important;
+    color: #F5F5F5;
+    transition: @transition;
+    &:hover{
+        transition: @transition;
+        background: #D5DCEE;
+        color: #8E3921;
+    }
+}
+.p1-4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFC099;
+    & span{
+        color:#F5F5F5;
+    }
+}
+.s3{
+    margin-top: 25rem;
+}
+.btn-2{
+    background: transparent;
+    border: 0;
+    transition: @transition;
+    &:hover{
+        transition: @transition;
+        color: white;
+    }
+}
+.p1-5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    /* or 42px */
+    color: #F5F5F5;
+}
+.input-1{
+    border: 4px solid #728BAD;
+    border-radius: 42px;
+    background: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    padding: 18px 3rem;
+    margin-bottom: 1.8rem;
+    color: rgba(217, 217, 217, 0.51);
+    outline: none !important;
+}
+.s6{
+    background: #222021;
+    box-shadow: 0px -6px 52px rgba(245, 245, 245, 0.17);
+    position: relative;
+    z-index: 10;
+}
